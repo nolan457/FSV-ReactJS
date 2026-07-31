@@ -23,7 +23,7 @@ Antes de comenzar, asegúrate de tener instalado:
    Clona el repositorio:
 
    ```bash
-   git clone https://github.com/nolan457/FSV-REACTJS
+   git clone https://github.com/nolan457/FSV-ReactJS
    cd FSV-ReactJS
    npm install
    ```
