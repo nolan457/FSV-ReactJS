@@ -1,17 +1,20 @@
 import '@/styles/App.css'
-
-
-function Saludo(props){
-  return <h1>Hola {props.nombre}</h1>
-}
+import Count from '@/components/example/count.jsx'
+import Form from '@/components/example/form.jsx'
+import Cart from '@/components/example/cart.jsx'
+import Area from '@/components/example/area.jsx'
+import MapExample from '@/components/example/map.jsx'
+import ClockTime from '@/components/example/reloj.jsx'
 
 function App() {
-
   return (
     <>
-      <Saludo nombre="Mundo" />
-      <Saludo nombre="Pablo" />
-      <Saludo nombre="Marta" />
+      <ClockTime />
+      <Cart />
+      <MapExample />
+      <Form />
+      <Count />
+      <Area />
     </>
   )
 }
